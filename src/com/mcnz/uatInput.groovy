@@ -3,7 +3,7 @@ package com.mcnz
 public class uatInput {
 
   def buildIsUatApproved() {
-    def file = new File("C:/Users/X395/Desktop/approved.txt")
+    def file = new File("/var/jenkins_home/approved.txt")
     
     if (file.exists()){
       return true;
